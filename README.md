@@ -36,11 +36,16 @@ Leverages LLM APIs (OpenAI in my case) for language model features.
    - **Retrieval:** Define a retrieval mechanism to fetch relevant document chunks based on a user query.
    - **Generation:** Use the OpenAI API (example `ChatOpenAI`) and LangChain to generate answers based on the retrieved context and the user query.
 
-4. **Set up OpenAI API Key:**  
+4. **Set up required API Keys:**  
 
-   You will need an OpenAI API key to use the OpenAI models. Ensure to have set up our API key as an environment variable or securely configured it in the app.
+   You will need an OpenAI API key, Pinecone API Key to use the models and vector DB. Ensure to  set up the required keys as an environment variables.
    ```bash
-   export OPENAI_API_KEY="YOUR_OPENAI_API_KEY"
+
+   # .env file
+   OPENAI_API_KEY = YOUR_KEY_HERE
+   PINECONE_API_KEY = YOUR_KEY_HERE
+   PINECONE_API_ENV = YOUR_ENV_REGION_HERE
+   INDEX_NAME = 'youtube-transcripts'
    ```
 
 5. **Run the Application with an example:**  
