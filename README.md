@@ -1,5 +1,3 @@
-Below is a concise and simple README that references both the article and the YouTube video:
-
 ---
 
 # Retrieval Augmented Generation with Python, LangChain, and OpenAI API
