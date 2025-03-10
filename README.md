@@ -1,5 +1,3 @@
----
-
 # Retrieval Augmented Generation with Python, LangChain, and OpenAI API
 
 This repository is a basic implementation of a Retrieval Augmented Generation (RAG) application built using Python, LangChain, and the OpenAI API.
