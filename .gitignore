@@ -7,7 +7,6 @@ __pycache__/
 
 # Environment variables
 .env
-.env.*
 
-.rag1.ipynb
-.rag2.ipynb
+rag1.ipynb
+rag2.ipynb
